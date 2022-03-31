@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096BE8B127EF27FC00956136 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096BE8B027EF27FC00956136 /* ListViewController.swift */; };
 		09CF46B627EC9B9000944A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF46B527EC9B9000944A64 /* AppDelegate.swift */; };
 		09CF46B827EC9B9000944A64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF46B727EC9B9000944A64 /* SceneDelegate.swift */; };
-		09CF46BA27EC9B9000944A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF46B927EC9B9000944A64 /* ViewController.swift */; };
+		09CF46BA27EC9B9000944A64 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF46B927EC9B9000944A64 /* MapsViewController.swift */; };
 		09CF46BD27EC9B9000944A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CF46BB27EC9B9000944A64 /* Main.storyboard */; };
 		09CF46C027EC9B9000944A64 /* HaritalarUygulamasi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09CF46BE27EC9B9000944A64 /* HaritalarUygulamasi.xcdatamodeld */; };
 		09CF46C227EC9B9200944A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CF46C127EC9B9200944A64 /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		096BE8B027EF27FC00956136 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		09CF46B227EC9B9000944A64 /* HaritalarUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaritalarUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CF46B527EC9B9000944A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09CF46B727EC9B9000944A64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09CF46B927EC9B9000944A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09CF46B927EC9B9000944A64 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		09CF46BC27EC9B9000944A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09CF46BF27EC9B9000944A64 /* HaritalarUygulamasi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HaritalarUygulamasi.xcdatamodel; sourceTree = "<group>"; };
 		09CF46C127EC9B9200944A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +62,8 @@
 			children = (
 				09CF46B527EC9B9000944A64 /* AppDelegate.swift */,
 				09CF46B727EC9B9000944A64 /* SceneDelegate.swift */,
-				09CF46B927EC9B9000944A64 /* ViewController.swift */,
+				09CF46B927EC9B9000944A64 /* MapsViewController.swift */,
+				096BE8B027EF27FC00956136 /* ListViewController.swift */,
 				09CF46BB27EC9B9000944A64 /* Main.storyboard */,
 				09CF46C127EC9B9200944A64 /* Assets.xcassets */,
 				09CF46C327EC9B9200944A64 /* LaunchScreen.storyboard */,
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CF46BA27EC9B9000944A64 /* ViewController.swift in Sources */,
+				09CF46BA27EC9B9000944A64 /* MapsViewController.swift in Sources */,
 				09CF46B627EC9B9000944A64 /* AppDelegate.swift in Sources */,
 				09CF46C027EC9B9000944A64 /* HaritalarUygulamasi.xcdatamodeld in Sources */,
+				096BE8B127EF27FC00956136 /* ListViewController.swift in Sources */,
 				09CF46B827EC9B9000944A64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
