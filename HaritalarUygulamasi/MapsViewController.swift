@@ -212,5 +212,9 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        //view will appear
+    }
+    
 }
 
